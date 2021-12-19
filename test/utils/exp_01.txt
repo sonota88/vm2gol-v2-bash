@@ -1,0 +1,17 @@
+# char index
+3
+
+# substr
+ds
+
+# matchInt
+0
+2
+3
+
+# matchIdent
+0
+4
+
+# replace
+a~b~~c
