@@ -544,7 +544,7 @@ parse_var() {
     _parse_var_init
     #=> RV1
   else
-    panic "169"
+    panic "parse_var: unexpected token (${t_val})"
   fi
 }
 
