@@ -1,10 +1,3 @@
-print_this_dir() {
-  (
-    cd "$(dirname "$0")"
-    pwd
-  )
-}
-
 readonly SH_OK=0
 readonly SH_NG=1
 
