@@ -384,7 +384,7 @@ gen_stmt() {
        gen_vm_comment "$cmt"
   ;; "_debug"   ) gen_debug
   ;; * )
-       panic "gen_stmt: unsupported sutmt ($head)"
+       panic "gen_stmt: unsupported stmt ($head)"
   esac
 }
 
