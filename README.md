@@ -11,3 +11,14 @@ git clone --recursive https://github.com/sonota88/vm2gol-v2-bash.git
 cd vm2gol-v2-bash
 ./test.sh all
 ```
+
+```
+$ LANG=C wc -l {lexer,parser,codegen}.sh lib/*.sh
+  220 lexer.sh
+  655 parser.sh
+  525 codegen.sh
+   35 lib/common.sh
+  193 lib/json.sh
+  284 lib/utils.sh
+ 1912 total
+```
