@@ -59,7 +59,7 @@ peek() {
 
 # increment position
 incr_pos() {
-  pos=$((pos +1))
+  pos=$((pos + 1))
 }
 
 Token_get_kind() {
